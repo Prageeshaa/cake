@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+div.example {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
